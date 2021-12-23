@@ -1,7 +1,6 @@
 CC = gcc
 INC = inc
-OBJ = $(wildcard src/*.c)
-OBJ += $(wildcard *.c)
+OBJ = $(wildcard *.c)
 FLAGS = -Werror -Wall -Wpedantic -std=c99
 
 a.out:
